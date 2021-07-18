@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tailwind.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/5f0ead6ef3.js" crossorigin="anonymous"></script>
+    <title>Royston Rodrigues</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="bg-gradient-to-r from-black to-gray-800 py-1">
+        <div class="container mx-auto px-2 flex flex-col md:flex-row justify-between md:items-center">
+            <div class="flex flex-row justify-between items-center">
+                <h1 class="text-gray-50 font-bold text-3xl">Royston Rodrigues</h1>
+                <div class="md:hidden">
+                    <button class="fas fa-bars text-gray-50 focus:outline-none" id="nav-button"></button>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row text-gray-50" id="nav-links">
+                <a class="pt-1 md:pt-0 hover:text-gray-200" href="#home">Home</a>
+                <a class="md:ml-2 pt-1 md:pt-0 hover:text-gray-200" href="#about">About</a>
+                <a class="md:mx-2 py-1 md:py-0 hover:text-gray-200" href="#projects">Projects</a>
+                <a class="hover:text-gray-200" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <main class="bg-gradient-to-r from-gray-50 to-white" id="home">
+        <div class="container mx-auto px-2">
+            <h2 class="text-center text-gray-900 text-5xl md:text-8xl font-bold py-16">Hello, I'm Royston Rodrigues</h2>
+            <p class="text-center text-gray-500 md:text-xl">I'm a student, a full stack web developer as well as a
+                hobbyist game developer.</p>
+            <p class="text-center pt-2 pb-4">
+                <a class="block fa fa-github bg-gray-900 hover:bg-black text-gray-50 p-2 rounded-md" href="https://github.com/NoobProgrammerRoy"><span class="text-gray-50 pl-2">View Github Profile</span></a>
+            </p>
+        </div>
+    </main>
+
+    <!-- About -->
+    <section class="bg-gradient-to-r from-black to-gray-900 text-gray-50 px-2 py-8" id="about">
+        <h2 class="text-center text-3xl text-gray-200 font-bold mb-2">About Me</h2>
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 px-2">
+            <article>
+                <p class="text-center md:text-justify">
+                    I'm a student and a full stack web developer with a passion for backend technologies. I loving
+                    working
+                    on projects as it helps me hone my craft further. I'm also a hobbyist game developer who loves
+                    creating
+                    hypercasual games. I have over 2 years of experience working with web technologies. When I'm not
+                    working
+                    on web related stuff, I'm usually writing my own games in python.
+                </p>
+            </article>
+            <article>
+                <p class="text-center text-2xl text-gray-200 font-bold mb-1">Technologies Worked With</p>
+                <ul class="list-disc">
+                    <div class="grid grid-cols-2">
+                        <div class="mx-auto">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Javascript</li>
+                            <li>Node.js</li>
+                            <li>Svelte.js</li>
+                        </div>
+                        <div class="mx-auto">
+                            <li>Python</li>
+                            <li>Flask</li>
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                        </div>
+                    </div>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="bg-gradient-to-r from-gray-50 to-white px-2 py-8" id="projects">
+        <h2 class="text-center text-3xl text-gray-900 font-bold mt-2">My Projects</h2>
+        <div class="container-sm mx-auto">
+            <article class="mt-8">
+                <h3 class="text-center text-2xl text-gray-900 font-bold pb-1">Card.io - Business Card Generator</h3>
+                <div class="grid grid-cols-1 gap-x-4 sm:grid-cols-2">
+                    <img class="block border border-gray-600" src="./img/cardio.PNG" alt="Card.io - Business Card Generator">
+                    <p class="text-gray-500">
+                        Card.io is a business card generator which allows users to create and share custom 
+                        and personalized business cards. Featuring a custom template engine, users can create 
+                        professional looking cards within a few seconds, which can then be shared online as 
+                        well as printed.
+                    </p>
+                </div>
+            </article>
+            <article class="mt-8">
+                <h3 class="text-center text-2xl text-gray-900 font-bold pb-1">Sizzle - Recipes and More</h3>
+                <div class="grid grid-cols-1 gap-x-4 sm:grid-cols-2">
+                    <img class="block border border-gray-600" src="./img/sizzle.PNG" alt="Sizzle - Recipes and More">
+                    <p class="text-gray-500">
+                        Sizzle is a recipe sharing platform that allows users to create and share recipes 
+                        with the community. Explore and create your favourite recpies or the ones shared by 
+                        the community.
+                    </p>
+                </div>
+            </article>
+            <article class="mt-8">
+                <h3 class="text-center text-2xl text-gray-900 font-bold pb-1">GZone - Online Game Store</h3>
+                <div class="grid grid-cols-1 gap-x-4 sm:grid-cols-2">
+                    <img class="block border border-gray-600" src="./img/gzone.PNG" alt="GZone - Online Game Store">
+                    <p class="text-gray-500">
+                        GZone is a ecommerce website that allows users to purchase their favourite games.
+                        Users can search through a multitude of games, purchase them as well share their feedback.
+                    </p>
+                </div>
+            </article>
+            <article class="mt-8">
+                <h3 class="text-center text-2xl text-gray-900 font-bold pb-1">Movie Ticket API</h3>
+                <div class="grid grid-cols-1 gap-x-4 sm:grid-cols-2">
+                    <img class="block border border-gray-600" src="./img/movie-api.jpg" alt="Movie Ticket API">
+                    <p class="text-gray-500">
+                        A fake movie ticket API for booking tickets as well as scheduling films. 
+                        Featuring full CRUD functionality as well as data validations.
+                    </p>
+                </div>
+            </article>
+            <article class="mt-8">
+                <h3 class="text-center text-2xl text-gray-900 font-bold pb-1">MyPass - Password Generator</h3>
+                <div class="grid grid-cols-1 gap-x-4 sm:grid-cols-2">
+                    <img class="block border border-gray-600" src="./img/mypass.PNG" alt="MyPass - Password Generator">
+                    <p class="text-gray-500">
+                        MyPass is an online password generator for generating strong custom passwords. 
+                        Users can create and store strong, randomized and secure passwords using the built in 
+                        password generator.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="bg-gradient-to-r from-gray-50 to-white px-2" id="contact">
+        <div class="container-sm mx-auto py-4">
+            <form action="" method="POST">
+                <h2 class="text-center text-3xl text-gray-900 font-bold mt-2">Contact Me</h2>
+                <p class="text-center text-gray-500 py-2">Wanna collaborate with me on future projects or have any doubts? Let me know.</p>
+                <input class="w-full p-1 border-2 border-gray-500 rounded-md focus:outline-none focus:border-gray-900 block my-2" type="text" name="name" id="name" placeholder="Name" required>
+                <input class="w-full p-1 border-2 border-gray-500 rounded-md focus:outline-none focus:border-gray-900 block my-2" type="email" name="email" id="email" placeholder="Email" required>
+                <textarea class="w-full p-1 border-2 border-gray-500 rounded-md focus:outline-none focus:border-gray-900 block my-2 resize-none" name="message" id="message" rows="5" placeholder="Message" required></textarea>
+                <button class="w-full bg-gray-900 hover:bg-black  text-gray-50 py-1 rounded-2xl mb-4" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-black to-gray-900">
+        <p class="text-center text-2xl text-gray-100 font-bold py-1">Connect with Me</p>
+        <p class="text-center text-gray-50">Email Address : roystonrodrigues24@gmail.com</p>
+        <div class="flex flex-row items center justify-center pt-1 pb-2">
+            <a class="fa fa-instagram text-gray-50 hover:text-gray-200 text-2xl" href=""></a>
+            <a class="fa fa-linkedin text-gray-50 hover:text-gray-200 text-2xl mx-4" href="https://in.linkedin.com/in/royston-rodrigues-2a17371a6?trk=people-guest_people_search-card"></a>
+            <a class="fa fa-github text-gray-50 hover:text-gray-200 text-2xl" href="https://github.com/NoobProgrammerRoy"></a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
