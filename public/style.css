@@ -10,6 +10,7 @@ h1, h2, h3 {
     font-family: 'Lato', sans-serif;
 }
 
+/* Container for Projects and Contact */
 .container-sm {
     max-width: 640px;
 }
